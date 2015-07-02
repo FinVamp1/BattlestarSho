@@ -5,6 +5,7 @@ using BattleStarSho.Models;
 
 namespace BattleStarSho.Controllers
 {
+    [RouteAttribute("api/[Controller]")]
     public class ShipsController : Controller
     {
         [HttpGet]
